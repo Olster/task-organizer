@@ -15,6 +15,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals":true,
+    "noUnusedParameters":true,
     "paths": {
       "@to/shared-types": ["libs/shared-types/src/index.ts"]
     }
